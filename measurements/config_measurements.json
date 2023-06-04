@@ -1,0 +1,14 @@
+{
+	"mut1":
+		{
+			"radar": "calibrated_radar_PE300_4900um",
+
+			"vna": "VNA_PE300_100Hz_TRM_4900um",
+
+			"material_string": "PE, 4.90 mm",
+
+			"filename_fig": "plot-sparam_pe_4_90mm.jpg",
+
+			"thickness": 4.90
+		}
+}

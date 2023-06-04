@@ -1,0 +1,32 @@
+{
+	"Materials":
+		{
+			"name": "Materials",
+
+			"batch_size": 16,
+
+			"closedset_training": {
+				"learning_rate": [0.01, 0.001],
+				"weight_decay": 5e-6,
+
+				"max_epoch": [20, 10]
+			},
+
+			"openset_training": {
+				"learning_rate": [0.01, 0.001],
+				"weight_decay": 5e-6,
+
+				"max_epoch": [20, 10]
+			},
+
+			"dataloader_workers": 2,
+
+			"sig_length": 256,
+			"sig_channels": 1,
+
+			"dropout": 0.2,
+
+			"num_known_classes": [797,203],
+			"num_classes": 1000
+	}
+}
